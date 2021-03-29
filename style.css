@@ -1,0 +1,60 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: black;
+}
+
+#menu {
+    padding: 20px;
+    margin: 15px;
+}
+
+#menu ul li {
+    list-style: none;
+}
+
+#menu ul li a {
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: white 1px solid;
+    transition: background-color .8s;
+}
+
+#menu ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.caja {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#caja1 {
+    background: #00ffff;
+    height: 197px;
+}
+
+#caja2 {
+    background: #ffff00;
+    height: 197px;
+}
+
+#caja3 {
+    background: #ffa500;
+    height: 197px;
+}
+
+#caja4 {
+    background: #ff0000;
+    height: 197px;
+}
