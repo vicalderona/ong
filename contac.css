@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("img/huellas.png");
+    background-size: 100;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+header h2 {
+    float: left;
+    line-height: 80px;
+    padding-left: 30px;
+    color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    display: inline-block;
+    padding-right: 20px;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 30px;
+    float: left;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+.contac {
+    width: 60%;
+    margin: 30px 20%;
+    float: left;
+}
+
+.contac h1 {
+    text-align: center;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contac form {
+    color: black;
+    background-color: rgba(236, 240, 241, 0.8);
+    padding: 20px;
+    margin: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 4px black;
+    border-radius: 10px;
+}
+
+.contac .der {
+    padding-left: 30px;
+}
+
+form .boton {
+    padding-top: 40px;
+    text-align: center;
+}
+
+form .boton input {
+    padding: 0 5px;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+form .row .col .errores {
+    display: none;
+}
